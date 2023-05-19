@@ -1,0 +1,186 @@
+{
+    "auxiliary_fan": "0",
+    "bbl_calib_mark_logo": "1",
+    "bed_custom_model": "",
+    "bed_custom_texture": "C:\\\\Users\\\\Sebastian\\\\Downloads\\\\Sovol-SV06-firmware-master\\\\Sovol-SV06-firmware-master\\\\misc\\\\sv06-buildPlate.png",
+    "bed_exclude_area": [
+        "0x0"
+    ],
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\n",
+    "change_filament_gcode": "",
+    "default_filament_profile": [
+        "My Generic ABS"
+    ],
+    "default_print_profile": "0.20mm Standard @MyKlipper",
+    "deretraction_speed": [
+        "45"
+    ],
+    "extruder_clearance_height_to_lid": "140",
+    "extruder_clearance_height_to_rod": "36",
+    "extruder_clearance_radius": "65",
+    "extruder_colour": [
+        "#FCE94F"
+    ],
+    "extruder_offset": [
+        "0x0"
+    ],
+    "from": "",
+    "gcode_flavor": "klipper",
+    "host_type": "octoprint",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
+    "machine_end_gcode": "PRINT_END",
+    "machine_load_filament_time": "0",
+    "machine_max_acceleration_e": [
+        "3000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "3000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "2000",
+        "5000"
+    ],
+    "machine_max_acceleration_travel": [
+        "9000",
+        "9000"
+    ],
+    "machine_max_acceleration_x": [
+        "3000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "3000",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "200",
+        "200"
+    ],
+    "machine_max_jerk_e": [
+        "0",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "0",
+        "9"
+    ],
+    "machine_max_jerk_y": [
+        "0",
+        "9"
+    ],
+    "machine_max_jerk_z": [
+        "0",
+        "0.4"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "200",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "200",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "12",
+        "12"
+    ],
+    "machine_min_extruding_rate": [
+        "0",
+        "0"
+    ],
+    "machine_min_travel_rate": [
+        "0",
+        "0"
+    ],
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "PRINT_START EXTRUDER={first_layer_temperature[initial_tool]} BED=[first_layer_bed_temperature] MESH_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} MESH_MAX={first_layer_print_max[0]},{first_layer_print_max[1]} LAYERS={total_layer_count} NOZZLE_SIZE={nozzle_diameter[0]}",
+    "machine_unload_filament_time": "0",
+    "max_layer_height": [
+        "0.32"
+    ],
+    "min_layer_height": [
+        "0.07"
+    ],
+    "name": "SV06 0.4 nozzle",
+    "nozzle_diameter": [
+        "0.4"
+    ],
+    "nozzle_hrc": "0",
+    "nozzle_type": "undefine",
+    "nozzle_volume": "15",
+    "print_host": "192.168.31.69",
+    "print_host_webui": "",
+    "printable_area": [
+        "5x0",
+        "225x0",
+        "225x220",
+        "5x220"
+    ],
+    "printable_height": "250",
+    "printer_model": "Generaic Klipper Printer",
+    "printer_settings_id": "SV06 0.4 nozzle",
+    "printer_technology": "FFF",
+    "printer_variant": "0.4",
+    "printhost_apikey": "",
+    "printhost_authorization_type": "key",
+    "printhost_cafile": "",
+    "printhost_password": "",
+    "printhost_port": "",
+    "printhost_ssl_ignore_revoke": "0",
+    "printhost_user": "",
+    "retract_before_wipe": [
+        "70%"
+    ],
+    "retract_length_toolchange": [
+        "2"
+    ],
+    "retract_restart_extra": [
+        "0"
+    ],
+    "retract_restart_extra_toolchange": [
+        "0"
+    ],
+    "retract_when_changing_layer": [
+        "1"
+    ],
+    "retraction_length": [
+        "0.3"
+    ],
+    "retraction_minimum_travel": [
+        "0.5"
+    ],
+    "retraction_speed": [
+        "45"
+    ],
+    "scan_first_layer": "0",
+    "silent_mode": "0",
+    "single_extruder_multi_material": "1",
+    "template_custom_gcode": "",
+    "thumbnails": [
+        "32x32",
+        "440x240"
+    ],
+    "upward_compatible_machine": [],
+    "use_firmware_retraction": "0",
+    "use_relative_e_distances": "1",
+    "version": "1.5.1.2",
+    "wipe": [
+        "0"
+    ],
+    "wipe_distance": [
+        "2"
+    ],
+    "z_hop": [
+        "0"
+    ],
+    "z_hop_types": [
+        "Normal Lift"
+    ]
+}
